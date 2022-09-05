@@ -32,7 +32,7 @@
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
     "run": "node -r dotenv-defaults/config lib/server/main.js",
-    "serve": "rimraf lib && npm run build:js && npm run prod-bundle && npm run run",
+    "prod": "rimraf lib && npm run build:js && npm run prod-bundle",
     "start": "rimraf lib && npm run build:js && npm run dev-bundle && npm run run"
   },
   "repository": {

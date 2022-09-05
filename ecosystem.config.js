@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    script: 'npm',
-    args  : "start"
+    script: 'node',
+    args  : " -r dotenv-defaults/config lib/server/main.js"
   }]
 };
